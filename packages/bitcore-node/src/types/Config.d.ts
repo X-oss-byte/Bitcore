@@ -4,6 +4,7 @@ export interface ConfigType {
   dbHost: string;
   dbName: string;
   dbPort: string;
+  dbConnectUrl?: string;
   numWorkers: number;
 
   chains: {
